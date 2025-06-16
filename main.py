@@ -4,7 +4,7 @@ from flask import Flask, request
 import asyncio
 import os
 
-TOKEN = os.environ.get("7847656840:AAEoG9zSN9gCmJ25VHzmzqOXtlO7aV14_TI")
+TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
 ADMIN_ID = 486443841
 APP_URL = os.environ.get("APP_URL")
 
