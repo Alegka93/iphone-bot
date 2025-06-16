@@ -5,7 +5,7 @@ import asyncio
 import os
 
 TOKEN = os.environ.get("7847656840:AAEoG9zSN9gCmJ25VHzmzqOXtlO7aV14_TI")
-ADMIN_ID = int(os.environ.get("486443841"))
+ADMIN_ID = 486443841
 APP_URL = os.environ.get("APP_URL")
 
 user_data = {}
