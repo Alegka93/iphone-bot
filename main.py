@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from keep_alive import keep_alive
 import os
 
-TOKEN = os.getenv (7847656840:AAEoG9zSN9gCmJ25VHzmzqOXtlO7aV14_TI)  # ✅ БЕЗ ВСТАВКИ ВРУЧНУ — з Render ENV
+TOKEN = os.getenv ("7847656840:AAEoG9zSN9gCmJ25VHzmzqOXtlO7aV14_TI")  # ✅ БЕЗ ВСТАВКИ ВРУЧНУ — з Render ENV
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привіт! Я працюю через Render і Flask Webhook! 🚀")
